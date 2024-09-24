@@ -37,3 +37,14 @@
         animation: octocat-wave 560ms ease-in-out;
     }
 }
+
+
+.logout-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #f7e2df;
+    text-decoration: none;
+}

@@ -61,11 +61,8 @@ def logout():
     logout_user()
     return redirect(url_for('register'))
 
-@app.route("/dashboard")  
+@app.route("/dashboard")
+@login_required 
 def dashboard():
     return render_template('dashboard.html', title='Dashboard')
-
-@app.route("/account")
-def account():
-    return render_template('account.html', title='Account')
     
