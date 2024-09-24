@@ -47,7 +47,7 @@
                            </div>
     <div>
         <p><span id="datetime"></span></p>
-        <script src="JS/time.js"></script>
+        <script src="{{ url_for('static', filename='JS/time.js') }}" type="text/javascript"></script>
     </div>
 
   <div id="myUnOrdList">
@@ -61,6 +61,6 @@
             </div> -->
         </ul>
     </div>
-    <script src="JS/main.js" type="text/javascript"> </script>
+    <script src="{{ url_for('static', filename='JS/main.js') }}" type="text/javascript"> </script>
 </body>
 </html>
